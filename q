@@ -9,8 +9,7 @@ fi
 
 search(){
 
-	# 如果grep不存在
-	if ! command -v grep &> /dev/null; then
+	if ! command -v grep 2>&1 1>/dev/null; then
 		printf "fatal: grep command not found.\n"
 	else
 
