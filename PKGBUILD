@@ -3,7 +3,7 @@ PACKAGER='condexpr01(Vito Devlin) <condexpr01@outlook.com>'
 pkgname=q-dictionary
 pkgver=2026.01.26.1
 pkgrel=1
-pkgdesc='Query chinese and english words in terminal'
+pkgdesc='Query Chinese and English words in terminal'
 arch=('any')
 url='https://github.com/condexpr01/q-dictionary'
 
